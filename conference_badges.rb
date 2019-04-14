@@ -26,7 +26,3 @@ def assign_rooms(array)
 end
 
 
-def assign_rooms(array)
-  array.each_with_index do |room, speaker|
-end
-end
