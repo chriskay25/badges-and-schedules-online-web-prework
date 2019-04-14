@@ -8,11 +8,22 @@ end
 
 def batch_badge_creator(attendees)
   new = []
-  attendees.each do |names|
-    badge_str = badge_maker(names)
+  attendees.each do |name|
+    badge_str = badge_maker(name)
     new << badge_str
     end
+    return new
     end
+    
+def assign_rooms(array)
+  new = []
+  room = 1
+  array.each do |name|
+    new.push("Hello, #{name}! You'll be assigned to room #{room}!")
+    room += 1
+  end
+  return new
+end
 
 
 def assign_rooms(array)
