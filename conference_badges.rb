@@ -2,7 +2,7 @@ attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 rooms = [1,2,3,4,5,6,7]
 
 def badge_maker(name)
-  return "Hello, my name is #{name}."
+  badges = "Hello, my name is #{name}."
 end
 
 
